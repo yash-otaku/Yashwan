@@ -10,7 +10,7 @@ const{storage} = require("../cloudConfig.js");
 const upload = multer({storage});
 
 
-Router.get("/",  wrapAsync(listingController.index));
+
 
 //new rought
 
